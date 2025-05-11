@@ -7,7 +7,7 @@ This project provisions a simple and secure AWS infrastructure using Terraform.
 ✅ S3 Bucket with Versioning  
 ✅ Modular Terraform Code  
 ✅ AWS IAM User with Proper Permissions  
-✅ Output screenshot and AWS user creation steps included
+✅ Output Screenshot and AWS User Creation Steps Included
 
 ---
 
@@ -19,11 +19,8 @@ This project provisions a simple and secure AWS infrastructure using Terraform.
 - ✅ GitHub
 
 ---
-##AWS IAM User Creation :
 
----
-
-## 🧾 IAM User Creation Steps for AWS CLI
+## 🔐 AWS IAM User Creation
 
 ### ✅ Step 1: Create IAM User
 
@@ -43,12 +40,13 @@ This project provisions a simple and secure AWS infrastructure using Terraform.
 
 ---
 
-## 🖥️ Terraform Output After `terraform apply`
+## 🖥️ Terraform Output (after `terraform apply`)
 
-### ✅ Output: EC2 Public IP & S3 Bucket Name
+### ✅ EC2 Public IP & S3 Bucket Name
 
 ![Terraform Output](./Images/terr_output.png)
 
+---
 
 ## ⚙️ AWS CLI + Terraform Installation (on EC2)
 
@@ -66,7 +64,7 @@ aws configure
 # Access Key ID
 # Secret Access Key
 # Region: ap-south-1
-# Output: json
+# Output format: json
 
 # Install Terraform
 sudo apt install gnupg software-properties-common -y
@@ -76,3 +74,4 @@ sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update -y
 sudo apt install terraform -y
 terraform -v
+
