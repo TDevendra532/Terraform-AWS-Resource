@@ -19,6 +19,12 @@ This project provisions a simple and secure AWS infrastructure using Terraform.
 - ✅ GitHub
 
 ---
+##AWS IAM User Creation :
+
+![Terraform Output](./Images/terr_output.png)
+![IAM User](./Images/IAM_user.png)
+![Access Key](./Images/Usr_AccessKey.png)
+![Permissions](./Images/IAM_User&Permissions.png)
 
 ## ⚙️ AWS CLI + Terraform Installation (on EC2)
 
