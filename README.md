@@ -21,10 +21,34 @@ This project provisions a simple and secure AWS infrastructure using Terraform.
 ---
 ##AWS IAM User Creation :
 
-![Terraform Output](./Images/terr_output.png)
+---
+
+## 🧾 IAM User Creation Steps for AWS CLI
+
+### ✅ Step 1: Create IAM User
+
 ![IAM User](./Images/IAM_user.png)
+
+---
+
+### ✅ Step 2: Setup Access Key
+
 ![Access Key](./Images/Usr_AccessKey.png)
+
+---
+
+### ✅ Step 3: Attach Required Permissions
+
 ![Permissions](./Images/IAM_User&Permissions.png)
+
+---
+
+## 🖥️ Terraform Output After `terraform apply`
+
+### ✅ Output: EC2 Public IP & S3 Bucket Name
+
+![Terraform Output](./Images/terr_output.png)
+
 
 ## ⚙️ AWS CLI + Terraform Installation (on EC2)
 
