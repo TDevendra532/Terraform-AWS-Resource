@@ -75,7 +75,11 @@ sudo apt update -y
 sudo apt install terraform -y
 terraform -v
 
-Vim ec2.tf
-vim s3.tf
+vim ec2.tf
 vim vpc.tf
-# Copy & paste the codes of this GitHub repo in respective .tf files on EC2 terminal & then outputs.tf will show required outputs of AWS resources.
+vim s3.tf
+vim provider.tf
+vim variables.tf
+vim outputs.tf
+
+# Copy & paste the contains of various .tf files of this GitHub repository into the  respective .tf files on EC2 terminal & then outputs.tf will show required outputs of AWS resources.
