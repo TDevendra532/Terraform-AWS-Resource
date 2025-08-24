@@ -82,4 +82,8 @@ vim provider.tf
 vim variables.tf
 vim outputs.tf
 
+terraform init
+terraform plan
+terraform apply
+
 # Copy & paste the contains of various .tf files of this GitHub repository into the  respective .tf files on EC2 terminal & then outputs.tf will show required outputs of AWS resources.
